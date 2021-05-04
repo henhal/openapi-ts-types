@@ -1,0 +1,36 @@
+{
+  "name": "@openapi-ts/types",
+  "version": "1.0.0",
+  "description": "TypeScript types for @openapi-ts/backend and generated OpenAPI definition operations",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henhal/openapi-ts-types.git"
+  },
+  "keywords": [
+    "OpenAPI",
+    "backend",
+    "TypeScript",
+    "types",
+    "codegen",
+    "operations",
+    "specification",
+    "request",
+    "response"
+  ],
+  "author": "Henrik Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henhal/openapi-ts-types/issues"
+  },
+  "homepage": "https://github.com/henhal/openapi-ts-types#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
