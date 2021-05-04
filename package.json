@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "clean": "rm -rf dist && rm -f tsconfig.tsbuildinfo"
+    "clean": "rm -rf dist && rm -f tsconfig.tsbuildinfo",
+    "prepublish": "yarn clean && yarn build"
   },
   "repository": {
     "type": "git",
