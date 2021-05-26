@@ -1,4 +1,4 @@
-import {findKey} from 'src/utils';
+import {findKey} from './utils';
 
 export type OneOrMany<T> = T | Array<T>;
 

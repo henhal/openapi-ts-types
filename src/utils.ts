@@ -1,4 +1,4 @@
-import {OneOrMany, Params} from 'src/types';
+import {OneOrMany, Params} from './types';
 
 export function findKey<K extends string, V>(obj: Params<K, OneOrMany<V>>, key: string): OneOrMany<V> | undefined {
   key = key.toLowerCase();
